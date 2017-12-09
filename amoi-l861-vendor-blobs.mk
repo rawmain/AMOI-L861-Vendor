@@ -10,6 +10,10 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/amoi/l861/proprieta
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/amoi/l861/proprietary/vendor,system/vendor)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/amoi/l861/proprietary/app,system/app)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/amoi/l861/proprietary/priv-app,system/priv-app)
+
 # Files from app folder
 
 # App's APKs
